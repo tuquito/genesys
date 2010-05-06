@@ -43,7 +43,7 @@ finish() {
 }
 
 gconf() {
-	cd tmp/gconf/
+	cd gconf/
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load background.gconf
 	#gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load compiz.gconf
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load ctrl.gconf
