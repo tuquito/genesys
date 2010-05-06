@@ -1,0 +1,33 @@
+<gconfentryfile>
+  <entrylist base="/desktop/gnome/peripherals/keyboard/kbd">
+    <entry>
+      <key>layouts</key>
+      <schema_key>/schemas/desktop/gnome/peripherals/keyboard/kbd/layouts</schema_key>
+      <value>
+        <list type="string">
+            <value>
+              <string>ie</string>
+            </value>
+        </list>
+      </value>
+    </entry>
+    <entry>
+      <key>model</key>
+      <schema_key>/schemas/desktop/gnome/peripherals/keyboard/kbd/model</schema_key>
+      <value>
+        <string></string>
+      </value>
+    </entry>
+    <entry>
+      <key>options</key>
+      <schema_key>/schemas/desktop/gnome/peripherals/keyboard/kbd/options</schema_key>
+      <value>
+        <list type="string">
+            <value>
+              <string>terminate	terminate:ctrl_alt_bksp</string>
+            </value>
+        </list>
+      </value>
+    </entry>
+  </entrylist>
+</gconfentryfile>

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Guake!
+Comment=Terminal de acceso rápido con la tecla F12
+Type=Application
+Exec=guake
+Icon=guake
+Terminal=false
+Categories=Utility;

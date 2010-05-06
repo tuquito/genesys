@@ -1,0 +1,46 @@
+<gconfentryfile>
+  <entrylist base="/apps/mount-systray">
+    <entry>
+      <key>blink_all_time</key>
+      <schema_key>/schemas/apps/mount-systray/blink_all_time</schema_key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>click_on_device_action</key>
+      <schema_key>/schemas/apps/mount-systray/click_on_device_action</schema_key>
+      <value>
+        <string>umount</string>
+      </value>
+    </entry>
+    <entry>
+      <key>hide_systray</key>
+      <schema_key>/schemas/apps/mount-systray/hide_systray</schema_key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>minutes_warning</key>
+      <schema_key>/schemas/apps/mount-systray/minutes_warning</schema_key>
+      <value>
+        <int>20</int>
+      </value>
+    </entry>
+    <entry>
+      <key>show_notify</key>
+      <schema_key>/schemas/apps/mount-systray/show_notify</schema_key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>show_notify_detected</key>
+      <schema_key>/schemas/apps/mount-systray/show_notify_detected</schema_key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+  </entrylist>
+</gconfentryfile>

@@ -1,0 +1,47 @@
+<gconfentryfile>
+  <entrylist base="/desktop/gnome/sound">
+    <entry>
+      <key>default_mixer_device</key>
+      <schema_key>/schemas/desktop/gnome/sound/default_mixer_device</schema_key>
+      <value>
+        <string></string>
+      </value>
+    </entry>
+    <entry>
+      <key>default_mixer_tracks</key>
+      <schema_key>/schemas/desktop/gnome/sound/default_mixer_tracks</schema_key>
+      <value>
+        <list type="string">
+        </list>
+      </value>
+    </entry>
+    <entry>
+      <key>enable_esd</key>
+      <schema_key>/schemas/desktop/gnome/sound/enable_esd</schema_key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>event_sounds</key>
+      <schema_key>/schemas/desktop/gnome/sound/event_sounds</schema_key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>input_feedback_sounds</key>
+      <schema_key>/schemas/desktop/gnome/sound/input_feedback_sounds</schema_key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>theme_name</key>
+      <schema_key>/schemas/desktop/gnome/sound/theme_name</schema_key>
+      <value>
+        <string>Tuquito</string>
+      </value>
+    </entry>
+  </entrylist>
+</gconfentryfile>
