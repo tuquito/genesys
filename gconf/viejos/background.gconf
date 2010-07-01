@@ -18,7 +18,7 @@
       <key>picture_filename</key>
       <schema_key>/schemas/desktop/gnome/background/picture_filename</schema_key>
       <value>
-        <string>/usr/share/backgrounds/tuquito/Tuquito4.jpg</string>
+        <string>/usr/share/backgrounds/TuquitoLuces4.png</string>
       </value>
     </entry>
     <entry>
@@ -39,14 +39,14 @@
       <key>primary_color</key>
       <schema_key>/schemas/desktop/gnome/background/primary_color</schema_key>
       <value>
-        <string>#2d2d4b4b6969</string>
+        <string>#646467676a6a</string>
       </value>
     </entry>
     <entry>
       <key>secondary_color</key>
       <schema_key>/schemas/desktop/gnome/background/secondary_color</schema_key>
       <value>
-        <string>#2d2d4b4b6969</string>
+        <string>#646467676a6a</string>
       </value>
     </entry>
   </entrylist>

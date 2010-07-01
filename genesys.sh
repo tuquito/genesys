@@ -73,19 +73,22 @@ gconf() {
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load ctrl.gconf
 	#gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load cursor.gconf
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load desktop-interface.gconf
-	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load gedit.gconf
+	#gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load gedit.gconf
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load gnome-terminal.gconf
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load guake.gconf
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load metacity.gconf
 	#gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load mount-systray.gconf
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load nautilus-actions.gconf
 	#gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load nautilus-desktop.gconf
-	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load nautilus.gconf
+	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load nautilus-desktop.gconf
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load panel.gconf
+	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load screensaver.gconf
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load sound.gconf
+	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --load totem.gconf
+
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults   --type string   --set /desktop/gnome/url-handlers/mailto/command "thunderbird %s"
-	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults --type bool --set /apps/totem/autoload_subtitles true
-	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults --type string --set /apps/metacity/general/button_layout "menu:minimize,maximize,close"
+	#gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults --type bool --set /apps/totem/autoload_subtitles true
+	#gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults --type string --set /apps/metacity/general/button_layout "menu:minimize,maximize,close"
 	#gconftool-2 --type string --set /apps/nautilus/preferences/background_color "#D6767D"
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults --type string --set /apps/nautilus/preferences/background_color "#CA3C46"
 	gconftool-2 --direct   --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults --type bool --set /apps/nautilus/preferences/background_set true
