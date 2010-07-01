@@ -1,0 +1,14 @@
+## Repositorios oficiales de Tuquito
+deb http://ppa.launchpad.net/paquetes-tuquito/main/ubuntu lucid main #Tuquito Main
+deb http://ppa.launchpad.net/paquetes-tuquito/update/ubuntu lucid main #Tuquito Update
+deb http://ppa.launchpad.net/paquetes-tuquito/import/ubuntu lucid main #Tuquito Import
+# deb http://ppa.launchpad.net/paquetes-tuquito/unstable/ubuntu lucid main #Tuquito Unstable
+
+## Repositorios de Ubuntu Lucid Lynx
+deb http://archive.ubuntu.com/ubuntu lucid main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu lucid-updates main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu lucid-security main restricted universe multiverse
+#deb http://archive.ubuntu.com/ubuntu lucid-backports main restricted universe multiverse
+
+## Repositorios de Canonical
+deb http://archive.canonical.com/ubuntu lucid partner

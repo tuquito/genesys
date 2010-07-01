@@ -8,6 +8,13 @@
       </value>
     </entry>
     <entry>
+      <key>at-spi-corba</key>
+      <schema_key>/schemas/desktop/gnome/interface/at-spi-corba</schema_key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
       <key>buttons_have_icons</key>
       <schema_key>/schemas/desktop/gnome/interface/buttons_have_icons</schema_key>
       <value>
@@ -85,6 +92,19 @@
       </value>
     </entry>
     <entry>
+      <key>gtk_color_scheme</key>
+      <value>
+        <string>fg_color:#4d4d4d4d4d4d
+bg_color:#e9ebe9ebe9eb
+text_color:#4d4d4d4d4d4d
+base_color:#f7f7f9f9fafa
+selected_fg_color:#ffffffffffff
+selected_bg_color:#80279d4ec221
+tooltip_fg_color:#2b5b2b5b2b5b
+tooltip_bg_color:#ffffdf0783e4</string>
+      </value>
+    </entry>
+    <entry>
       <key>gtk_key_theme</key>
       <schema_key>/schemas/desktop/gnome/interface/gtk_key_theme</schema_key>
       <value>
@@ -95,14 +115,20 @@
       <key>gtk_theme</key>
       <schema_key>/schemas/desktop/gnome/interface/gtk_theme</schema_key>
       <value>
-        <string>bamboo-zen</string>
+        <string>Tuquito 4 elementary</string>
+      </value>
+    </entry>
+    <entry>
+      <key>hide_decorator_tooltip</key>
+      <value>
+        <bool>true</bool>
       </value>
     </entry>
     <entry>
       <key>icon_theme</key>
       <schema_key>/schemas/desktop/gnome/interface/icon_theme</schema_key>
       <value>
-        <string>showtime</string>
+        <string>tuquito-elementary</string>
       </value>
     </entry>
     <entry>

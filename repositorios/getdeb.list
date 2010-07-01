@@ -1,0 +1,2 @@
+deb http://archive.getdeb.net/ubuntu lucid-getdeb apps #GetDeb
+deb http://archive.getdeb.net/ubuntu lucid-getdeb games #PlayDeb

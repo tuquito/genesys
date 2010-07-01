@@ -418,7 +418,7 @@
       <key>applets/clock_screen0/prefs/show_date</key>
       <schema_key>/schemas/apps/clock_applet/prefs/show_date</schema_key>
       <value>
-        <bool>false</bool>
+        <bool>true</bool>
       </value>
     </entry>
     <entry>

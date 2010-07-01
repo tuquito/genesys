@@ -11,9 +11,6 @@
             <value>
               <string>current</string>
             </value>
-            <value>
-              <string>ISO-8859-15</string>
-            </value>
         </list>
       </value>
     </entry>
@@ -155,6 +152,13 @@
     <entry>
       <key>keybindings/reset_and_clear</key>
       <schema_key>/schemas/apps/gnome-terminal/keybindings/reset_and_clear</schema_key>
+    </entry>
+    <entry>
+      <key>keybindings/save_contents</key>
+      <schema_key>/schemas/apps/gnome-terminal/keybindings/save_contents</schema_key>
+      <value>
+        <string>disabled</string>
+      </value>
     </entry>
     <entry>
       <key>keybindings/set_terminal_title</key>
@@ -313,6 +317,20 @@
       </value>
     </entry>
     <entry>
+      <key>profiles/Default/bold_color</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/bold_color</schema_key>
+      <value>
+        <string>#000000000000</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Default/bold_color_same_as_fg</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/bold_color_same_as_fg</schema_key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
       <key>profiles/Default/cursor_blink_mode</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/cursor_blink_mode</schema_key>
       <value>
@@ -338,6 +356,20 @@
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/default_show_menubar</schema_key>
       <value>
         <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Default/default_size_columns</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/default_size_columns</schema_key>
+      <value>
+        <int>80</int>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Default/default_size_rows</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/default_size_rows</schema_key>
+      <value>
+        <int>24</int>
       </value>
     </entry>
     <entry>
@@ -418,6 +450,13 @@
       </value>
     </entry>
     <entry>
+      <key>profiles/Default/scrollback_unlimited</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/scrollback_unlimited</schema_key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
       <key>profiles/Default/scrollbar_position</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/scrollbar_position</schema_key>
       <value>
@@ -474,6 +513,13 @@
       </value>
     </entry>
     <entry>
+      <key>profiles/Default/use_theme_background</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/use_theme_background</schema_key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
       <key>profiles/Default/use_theme_colors</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/use_theme_colors</schema_key>
       <value>
@@ -484,7 +530,7 @@
       <key>profiles/Default/visible_name</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/visible_name</schema_key>
       <value>
-        <string>Predeterminado</string>
+        <string>Default</string>
       </value>
     </entry>
     <entry>

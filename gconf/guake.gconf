@@ -29,6 +29,13 @@
       </value>
     </entry>
     <entry>
+      <key>general/prompt_on_quit</key>
+      <schema_key>/schemas/apps/guake/general/prompt_on_quit</schema_key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
       <key>general/scroll_keystroke</key>
       <schema_key>/schemas/apps/guake/general/scroll_keystroke</schema_key>
       <value>
@@ -92,6 +99,20 @@
       </value>
     </entry>
     <entry>
+      <key>general/window_halignment</key>
+      <schema_key>/schemas/apps/guake/general/window_halignment</schema_key>
+      <value>
+        <int>0</int>
+      </value>
+    </entry>
+    <entry>
+      <key>general/window_height</key>
+      <schema_key>/schemas/apps/guake/general/window_height</schema_key>
+      <value>
+        <int>50</int>
+      </value>
+    </entry>
+    <entry>
       <key>general/window_losefocus</key>
       <schema_key>/schemas/apps/guake/general/window_losefocus</schema_key>
       <value>
@@ -106,17 +127,17 @@
       </value>
     </entry>
     <entry>
-      <key>general/window_size</key>
-      <schema_key>/schemas/apps/guake/general/window_size</schema_key>
-      <value>
-        <int>50</int>
-      </value>
-    </entry>
-    <entry>
       <key>general/window_tabbar</key>
       <schema_key>/schemas/apps/guake/general/window_tabbar</schema_key>
       <value>
         <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>general/window_width</key>
+      <schema_key>/schemas/apps/guake/general/window_width</schema_key>
+      <value>
+        <int>100</int>
       </value>
     </entry>
     <entry>

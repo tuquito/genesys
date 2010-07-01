@@ -35,15 +35,18 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+#i18n
+export TEXTDOMAIN="terminal"
+export TEXTDOMAINDIR="/usr/share/tuquito/locale"
+
 # sudo hint
 if [ ! -e $HOME/.sudo_as_admin_successful ]; then
     case " $(groups) " in *\ admin\ *)
     if [ -x /usr/bin/sudo ]; then
 	cat <<-EOF
-				Bienvenid@ a Tuquito 4!
-	Para correr comandos como administrador (usuario "root"), use "sudo <comando>".
-	Para loguearse como administrador (usuario "root"), use "sudo su".
-	
+	$(gettext 'Welcome to Tuquito 4!')
+	$(gettext 'To run command as administrator (user "root"), use "sudo <command>".')
+	$(gettext 'To log in as administrator (user "root"), use "sudo su".')
 	EOF
     fi
     esac

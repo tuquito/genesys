@@ -1,5 +1,9 @@
 Package: *
-Pin: release o=Tuquito
+Pin: release o=tuquito
+Pin-Priority: 700
+
+Package: *
+Pin: origin ppa.launchpad.net/paquetes-tuquito
 Pin-Priority: 700
 
 Package: *

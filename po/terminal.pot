@@ -1,0 +1,30 @@
+# Traducciones para la terminal
+# Copyright (C) 2010 Tuquito Team!
+# This file is distributed under the same license as the Tuquito.
+# Mario Colque <mario@tuquito.org.ar>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Terminal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-09 19:56-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bash.bashrc:47
+msgid "Welcome to Tuquito 4!"
+msgstr ""
+
+#: bash.bashrc:48
+msgid ""
+"To run command as administrator (user \"root\"), use \"sudo <command>\"."
+msgstr ""
+
+#: bash.bashrc:49
+msgid "To log in as administrator (user \"root\"), use \"sudo su\"."
+msgstr ""
